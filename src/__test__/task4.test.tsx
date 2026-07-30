@@ -1,6 +1,6 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import MyContainer from '../components/MyContainer';
+import MyContainer from '../components/MyContainer.tsx';
 
 describe('MyContainer', () => {
   it('should input text and display it on the page when the button is clicked', async () => {

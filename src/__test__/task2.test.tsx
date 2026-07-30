@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import MyContainer from "../components/MyContainer";
+import MyContainer from "../components/MyContainer.tsx";
 import MyList from "../components/MyList";
 import App from "../App";
 

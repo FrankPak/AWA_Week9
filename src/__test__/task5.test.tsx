@@ -1,6 +1,6 @@
 import { render, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import MyContainer from "../components/MyContainer";
+import MyContainer from "../components/MyContainer.tsx";
 
 test("conditional rendering", async () => {
   let { getAllByRole } = render(<MyContainer />);
