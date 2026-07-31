@@ -6,15 +6,16 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
 node_modules
 dist
 dist-ssr
 *.local
+jest.config.js
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+./src/__test__
 .idea
 .DS_Store
 *.suo
