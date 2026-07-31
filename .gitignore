@@ -15,7 +15,7 @@ jest.config.js
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-./src/__test__
+src/__test__
 .idea
 .DS_Store
 *.suo
